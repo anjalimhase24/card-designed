@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <title>Card</title>
+</head>
+<style>
+    body {
+        background-color: rgb(236, 246, 246);
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        background-color: rgb(255, 255, 255);
+        height: 400px;
+        width: 300px;
+        margin: 10px;
+        border: 1px solid rgb(230, 221, 221);
+        border-radius: 10px;
+        flex-direction: column;
+
+    }
+
+    .main-img {
+        border-radius: 10px 10px 0px 0px;
+        border-bottom: 15px;
+
+    }
+
+    .project-heading {
+        font-size: 25px;
+        font-weight: 800;
+        font-family: calc();
+        margin-left: 7px;
+    }
+
+    .sub-container {
+        padding-left: 10px;
+        margin: 10px;
+        padding-right: 10px;
+    }
+
+    .course-name {
+        background-color: rgb(156, 211, 238);
+        padding: 4px;
+        border-radius: 4px;
+        margin-left: 7px;
+    }
+
+    .item:hover {
+        border: 1px solid;
+    }
+
+    .card-info {
+        margin: 10px;
+        font-size: 15px;
+        color: rgb(113, 112, 112);
+    }
+
+    .tech-stack {
+        display: flex;
+        margin: 2px;
+
+    }
+
+    .tech {
+        border-radius: 20px;
+        margin-right: 10px;
+        background-color: rgb(229, 223, 223);
+        font-size: 12px;
+        padding: 4px 20px;
+        margin-left: 7px;
+        border: 1px solid rgb(181, 177, 177);
+
+    }
+
+    .tech:hover {
+        border: 1px solid rgb(234, 229, 229);
+    }
+
+    .project-duration {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project-duration-info{
+        font-size: 14px;
+        color: rgb(88, 86, 86);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="./card.png" width="300px" class="main-img">
+
+            <div class="sub-container"></div>
+            <span class="project-heading">Road to code</span>
+            <br />
+            <span class="course-name">Internship Cohort Program 14.0</span>
+            <p class="card-info">This project server as he foundation for an e-commerce website specializing in the sale
+                of electronic gadgets. With...
+            </p>
+            <div class="tech-stack">
+                <span class="tech">HTML</span>
+                <span class="tech">CSS</span>
+                <span class="tech">Github</span>
+            </div>
+
+            <div class="project-duration">
+                <div>
+                    <span class="project-duration-info">Nov 2025 - Nov 2025</span></div>
+                <div>
+                    <span class="project-duration-info">Anjali Mhase</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+
+</html>
